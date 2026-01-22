@@ -8,14 +8,14 @@
 
 body {
   line-height: 1.6;
-  background: #f7f7f7;
-  color: #333;
+  background: #063a29;
+  color: #71db96;
   scroll-behavior: smooth;
 }
 
 /* Navbar */
 header {
-  background: #006d77; /* primary color */
+  background: #063a29; /* primary color */
   color: #fff;
   padding: 12px 20px;
   position: sticky;
@@ -60,7 +60,7 @@ nav ul li a::after {
   bottom: -3px;
   width: 0;
   height: 3px;
-  background: #83c5be; /* lighter accent */
+  background: #063a29; /* lighter accent */
   transition: width 0.3s ease-in-out;
 }
 
@@ -69,15 +69,15 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:hover {
-  color: #edf6f9;
+  color: #259a6b;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background: linear-gradient(135deg, #006d77, #83c5be);
-  color: #fff;
+  background: linear-gradient(135deg, #063a29, #328867);
+  color: #d3dbd6;
 }
 
 .hero h2 {
@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 .btn {
-  background: #006d77;
+  background: #063a29;
   color: #fff;
   padding: 10px 20px;
   border-radius: 30px;
@@ -101,21 +101,21 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-  background: #83c5be;
+  background: #4ab390;
   color: #003d3f;
 }
 
 /* Sections */
 section {
   padding: 60px 20px;
-  max-width: 900px;
+  max-width: 1100px;
   margin: auto;
 }
 
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #006d77;
+  color: #4ec286;
 }
 
 /* Flip Cards */
@@ -156,12 +156,12 @@ h2 {
 }
 
 .flip-front {
-  background: #006d77;
+  background: #23755a;
 }
 
 .flip-back {
-  background: #83c5be;
-  color: #003d3f;
+  background: #83c5b4;
+  color: #063a29;
   transform: rotateY(180deg);
 }
 
@@ -173,7 +173,7 @@ h2 {
 
 .resume-btn {
   display: inline-block;
-  background: #006d77;
+  background: #2e8064;
   color: #fff;
   padding: 14px 28px;
   border-radius: 50px;
@@ -186,8 +186,8 @@ h2 {
 }
 
 .resume-btn:hover {
-  background: #83c5be;
-  color: #003d3f;
+  background: #74d1b2;
+  color: #063a29;
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 109, 119, 0.5);
 }
@@ -219,19 +219,19 @@ form {
 
 form input, form textarea {
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #209d6f;
   border-radius: 6px;
   outline: none;
   font-size: 1rem;
 }
 
 form input:focus, form textarea:focus {
-  border-color: #006d77;
-  box-shadow: 0 0 5px rgba(0,109,119,0.4);
+  border-color: #36c3a4;
+  box-shadow: 0 0 5px rgba(50, 131, 109, 0.4);
 }
 
 form button {
-  background: #006d77;
+  background: #24624d;
   color: #fff;
   padding: 12px;
   border: none;
@@ -242,15 +242,15 @@ form button {
 }
 
 form button:hover {
-  background: #83c5be;
-  color: #003d3f;
+  background: #56a58b;
+  color: #063a29;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 20px;
-  background: #006d77;
+  background: #063a29;
   color: #fff;
   margin-top: 40px;
 }
