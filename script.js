@@ -26,11 +26,11 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
       message: document.getElementById("message").value,
     })
     .then(() => {
-      formMsg.textContent = "✅ Thank you! Your message has been sent successfully.";
+      formMsg.textContent = "Thank you! Your message has been sent successfully.";
       formMsg.style.color = "#556b2f";
       this.reset();
     }, (error) => {
-      formMsg.textContent = "❌ Failed to send message. Please try again later.";
+      formMsg.textContent = "Failed to send message. Please try again later.";
       formMsg.style.color = "red";
       console.error("EmailJS Error:", error);
     });

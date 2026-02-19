@@ -2,136 +2,210 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Tharunika K P | Full Stack & Java Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tharunika K P | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- EmailJS SDK -->
+  <!-- EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
   <script>
-    (function() {
-      // ⚠️ Replace with your EmailJS Public Key
-      // emailjs.init("5EhpwYBre-UC6Nhpv");
-      emailjs.init({ publicKey: "5EhpwYBre-UC6Nhpv" })
+    (function(){
+      emailjs.init("5EhpwYBre-UC6Nhpv");
     })();
   </script>
 </head>
+
 <body>
-  <!-- Navbar -->
+
+  <!-- NAVBAR -->
   <header>
     <nav>
-      <h1>Tharunika K P</h1>
+      <div class="logo">Tharunika K P</div>
       <ul>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#certificates" class="nav-link">Certificates</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero fade-in" id="home">
-    <h2>Result-driven Java & AI Developer</h2>
-    <p>Building scalable and impactful solutions with Java, React, and AI.</p>
-    <a href="#projects" class="btn">View My Work</a>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Full Stack Developer <br>
+        <span class="highlight">& Java Engineer</span>
+      </h1>
+      <p>
+        Building scalable backend systems, high-performance web applications,
+        and AI-driven solutions with production-grade architecture.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="primary-btn">View Projects</a>
+        <a href="Tharunika_Resume.pdf" class="secondary-btn" download>
+          Download Resume
+        </a>
+      </div>
+    </div>
   </section>
 
-  <!-- About -->
-  <section id="about" class="fade-in">
+  <!-- ABOUT -->
+  <section class="section" id="about">
     <h2>About Me</h2>
-    <p>
-      I am a B.Tech AI & DS student at Bannari Amman Institute of Technology,
-      passionate about building intelligent, scalable applications. Skilled in Java,
-      React, and AI technologies, I enjoy solving problems and creating impactful
-      software solutions.
+    <p class="section-text">
+      I am a Full Stack Developer specializing in Java-based backend systems 
+      and scalable web architectures. With strong foundations in Data Structures, 
+      REST APIs, and database optimization, I design systems that are clean, 
+      maintainable, and production-ready.
     </p>
-    <!-- <a href="Tharunika_Resume.pdf" class="btn" download>Download Resume</a> -->
-     <div class="resume-btn-container">
-  <a href="Tharunika_Resume.pdf" class="resume-btn" download>
-    📄 Download Resume
-  </a>
-</div>
-
   </section>
 
-  <!-- Skills (Flip Cards) -->
-  <section id="skills" class="fade-in">
-    <h2>Skills</h2>
-    <div class="flip-grid">
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Languages</div><div class="flip-back">Python, C, C++, Java</div></div></div>
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Frontend</div><div class="flip-back">HTML, CSS, JavaScript, TailwindCSS, Figma</div></div></div>
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Backend</div><div class="flip-back">Python, Java</div></div></div>
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Frameworks</div><div class="flip-back">ReactJS, NextJS</div></div></div>
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Databases</div><div class="flip-back">MongoDB, MySQL</div></div></div>
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Tools</div><div class="flip-back">Git, GitHub, VS Code</div></div></div>
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <h2>Technical Expertise</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Languages</h3>
+        <p>Java, Python, C++, JavaScript</p>
+      </div>
+
+      <div class="card">
+        <h3>Backend</h3>
+        <p>Spring Boot, REST APIs, Node.js</p>
+      </div>
+
+      <div class="card">
+        <h3>Frontend</h3>
+        <p>ReactJS, NextJS, TailwindCSS</p>
+      </div>
+
+      <div class="card">
+        <h3>Database</h3>
+        <p>MongoDB, MySQL</p>
+      </div>
+
+      <div class="card">
+        <h3>System Design</h3>
+        <p>API Design, Authentication, Scalable Architecture</p>
+      </div>
+
+      <div class="card">
+        <h3>Tools</h3>
+        <p>Git, GitHub, VS Code</p>
+      </div>
+
     </div>
   </section>
 
-  <!-- Experience -->
-  <section id="experience" class="fade-in">
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+
+      <div class="card project">
+        <h3>AI-Powered E-Commerce</h3>
+        <p>
+          Full-stack shopping platform with authentication, cart system,
+          MongoDB integration, and AI-based product recommendation engine.
+        </p>
+      </div>
+
+      <div class="card project">
+        <h3>Smart Agriculture Platform</h3>
+        <p>
+          AI-driven crop disease detection system integrated with REST APIs
+          and real-time weather-based insights.
+        </p>
+      </div>
+
+      <div class="card project">
+        <h3>Recipe Finder (API Based)</h3>
+        <p>
+          REST API-driven web application consuming external APIs,
+          handling asynchronous requests and dynamic rendering.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
     <h2>Experience</h2>
-    <h3>Internship – Crayon’D Private Limited (Mar 2025 - Apr 2025)</h3>
-    <ul>
-      <li>Developed responsive web pages using React.js, Next.js, TailwindCSS, and HeroUI.</li>
-      <li>Built reusable modular components and ensured cross-device compatibility.</li>
-      <li>Optimized frontend performance with lazy loading and component splitting.</li>
-      <li>Collaborated with designers to translate Figma designs into functional UIs.</li>
-    </ul>
-    <h3>Internship – IBM SkillsBuild (Mar 2025 - Apr 2025)</h3>
-    <ul>
-      <li>esigned and developed a Recipe Finder web application using the Spoonacular REST API to dynamically fetch
-and display recipe data based on user queries.</li>
-      <li>mplemented a responsive and structured user interface using HTML5 and CSS3, ensuring usability across different
-screen sizes and devices.</li>
-      <li>eveloped client-side functionality with JavaScript, including API integration, DOM manipulation, input validation,
-and real-time content updates.</li>
-      <li>andled asynchronous operations using Fetch API and JavaScript promises to efficiently manage API requests and
-responses.</li>
-    </ul>
-  </section>
-  
-  <!-- Projects -->
-  <section id="projects" class="fade-in">
-    <h2>Projects</h2>
-    <div class="flip-grid">
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">AI-Powered Shopping</div><div class="flip-back">MongoDB + React. Includes wishlist, profile, cart, and AI chatbot for product discovery.</div></div></div>
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Smart Agriculture Platform</div><div class="flip-back">React.js + Node.js + Django REST APIs with AI-powered crop disease detection & weather insights.</div></div></div>
-      <div class="flip-card"><div class="flip-inner"><div class="flip-front">Recipe Finder</div><div class="flip-back">HTML + JavaScript + CSS + Spoonacular api , This is used for finding the receipes</div></div></div>
+
+    <div class="experience-box">
+      <h3>Frontend Developer Intern – Crayon’D</h3>
+      <p>
+        Developed modular React components, improved performance 
+        using lazy loading and optimized rendering strategies.
+      </p>
     </div>
+
+    <div class="experience-box">
+      <h3>Web Developer Intern – IBM SkillsBuild</h3>
+      <p>
+        Built API-driven applications, implemented asynchronous 
+        request handling and structured frontend architecture.
+      </p>
+    </div>
+
   </section>
 
-  <!-- Certificates -->
-  <section id="certificates" class="fade-in">
-    <h2>Certificates</h2>
-    <ul>
-      <li>Fundamentals of Generative AI – SAWIT.AI (2024)</li>
-      <li>Introduction to Responsive AI – Simplilearn (2024)</li>
-      <li>Elements of AI – University of Helsinki (2025)</li>
-      <li>Intellectual Property UTSAV – BIT (2025)</li>
-      <li>Introduction to C Programming – LearnTube.ai (2025)</li>
-    </ul>
-  </section>
+  <!-- CONTACT -->
+  <section class="section fade-in" id="contact">
+    <h2>Contact</h2>
 
-  <!-- Contact -->
-  <section id="contact" class="fade-in">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p id="formMsg"></p>
+    <div class="contact-wrapper">
+
+      <div class="contact-info">
+        <h3>Let’s Work Together</h3>
+        <p>
+          I'm open to Full Stack and Java Developer roles in high-growth,
+          product-based companies. If you’re building something scalable
+          and impactful — let’s connect.
+        </p>
+
+        <div class="contact-details">
+          <p><strong>Email:</strong> tharunikaponnusamy@gmail.com</p>
+          <p><strong>Role:</strong> Full Stack / Java Developer</p>
+          <p><strong>Location:</strong> India</p>
+        </div>
+      </div>
+
+      <div class="contact-form-box">
+        <form id="contactForm">
+
+          <div class="input-group">
+            <input type="text" id="name" name="name" required>
+            <label>Your Name</label>
+          </div>
+
+          <div class="input-group">
+            <input type="email" id="email" name="email" required>
+            <label>Your Email</label>
+          </div>
+
+          <div class="input-group">
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <label>Your Message</label>
+          </div>
+
+          <button type="submit" class="primary-btn">Send Message</button>
+          <p id="formMsg"></p>
+
+        </form>
+      </div>
+
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Tharunika K P | Portfolio</p>
+    © 2026 Tharunika K P — Engineered with Precision
   </footer>
-
   <script src="script.js"></script>
+
 </body>
 </html>
