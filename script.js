@@ -27,7 +27,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     })
     .then(() => {
       formMsg.textContent = "Thank you! Your message has been sent successfully.";
-      formMsg.style.color = "#556b2f";
+      formMsg.style.color = "#38bdf8";
       this.reset();
     }, (error) => {
       formMsg.textContent = "Failed to send message. Please try again later.";
